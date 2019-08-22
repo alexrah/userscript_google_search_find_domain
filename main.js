@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  For any search, iterate through all SERP to find if a particular domain appear
-// @author       You
+// @author       Alessandro Stoppato
 // @match        https://www.google.com/*
 // @grant        none
 // ==/UserScript==
