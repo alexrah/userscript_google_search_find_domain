@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Google Search find domain
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  For any search, iterate through all SERP to find if a particular domain appear
 // @author       Alessandro Stoppato
 // @match        https://www.google.com/*
@@ -40,7 +40,7 @@
     function testlink(string){
 
         let index = 0;
-        let res = document.querySelectorAll('.g .r > a');
+        let res = document.querySelectorAll('.g .rc a');
         let click = document.querySelector('#pnnext');
 
         res.forEach(elem=>{
